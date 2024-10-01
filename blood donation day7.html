@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Donation Camp</title>
+    <link rel="stylesheet" href="blood donation day7.css">
+</head>
+<body>
+    <header>
+        <h1>Blood Donation Camp</h1>
+        <p>Save Lives. Donate Blood.</p>
+    </header>
+
+    <main>
+        <section class="info">
+            <h2>Event Details</h2>
+            <p>Date: October 15, 2024</p>
+            <p>Location: Community Center, Main Street</p>
+            <p>Time: 10:00 AM - 4:00 PM</p>
+        </section>
+
+        <section class="registration">
+            <h2>Register to Donate</h2>
+            <form id="donationForm">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <input type="tel" id="phone" placeholder="Your Phone Number" required>
+                <select id="bloodType" required>
+                    <option value="">Select Blood Type</option>
+                    <option value="A+">A+</option>
+                    <option value="A-">A-</option>
+                    <option value="B+">B+</option>
+                    <option value="B-">B-</option>
+                    <option value="O+">O+</option>
+                    <option value="O-">O-</option>
+                    <option value="AB+">AB+</option>
+                    <option value="AB-">AB-</option>
+                </select>
+                <button type="submit">Register</button>
+            </form>
+            <div id="message"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Blood Donation Organization</p>
+    </footer>
+
+    <script src="blood donation day.js"></script>
+</body>
+</html>
